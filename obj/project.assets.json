@@ -1401,25 +1401,24 @@
     ]
   },
   "packageFolders": {
-    "/home/home1/.nuget/packages/": {}
+    "/home/owl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/home1/Documents/tafe/Diploma/mobappsProject/BackendV2/SeniorLearnApi.csproj",
+      "projectUniqueName": "/home/owl/BackendV2/SeniorLearnApi.csproj",
       "projectName": "SeniorLearnApi",
-      "projectPath": "/home/home1/Documents/tafe/Diploma/mobappsProject/BackendV2/SeniorLearnApi.csproj",
-      "packagesPath": "/home/home1/.nuget/packages/",
-      "outputPath": "/home/home1/Documents/tafe/Diploma/mobappsProject/BackendV2/obj/",
+      "projectPath": "/home/owl/BackendV2/SeniorLearnApi.csproj",
+      "packagesPath": "/home/owl/.nuget/packages/",
+      "outputPath": "/home/owl/BackendV2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/home1/.nuget/NuGet/NuGet.Config"
+        "/home/owl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/lib64/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1432,13 +1431,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1476,20 +1469,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1498,7 +1477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
