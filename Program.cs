@@ -80,7 +80,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
         policy => policy
-         .WithOrigins("http://localhost:3001")
+         .WithOrigins("http://localhost:3001","http://owl.grassplot.xyz:3001")
             //.AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowCredentials()
